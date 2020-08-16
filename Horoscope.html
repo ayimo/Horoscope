@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Is Your Horoscope?</title>
+  <link rel="stylesheet" href="CSS/Horoscope.css">
+  <style>
+    body {
+      background-image: url("STARS.gif");
+    }
+</style>
+</head>
+<body>
+    <section id = "wholepage">
+        <h1> Find out your zodiac sign !</h1>
+
+    <h2> Enter your birthday </h2>
+    <section class="inputs">
+        <section class="monthbox">
+            <p>Month:<input type="number" id="month" min="1" max="12"></p>
+        </section>
+        <section class="daybox">
+          <p> Day:<input type="number" id="day" min="1" max="31"></p>
+        </section>
+    </section>
+    <section class="whatisit">
+      <!--  <a id="click" onclick="zodiac()"  class="button">Find your zodiac sign! </a> -->
+
+      <!--  <a id="click" onclick="zodiac()" class="button">Find your zodiac sign!</a> -->
+
+        <button id="click" class="button">Find your zodiac sign!</button>
+        <p id= "result"> The stars are telling me... <!--BLANK--></p>
+        <p class = "pics"></p>
+        <p class = "description"></p>
+    </section>
+  </section>
+    <script type="text/javascript" src="JS/horoscope.js"></script>
+    <footer>
+        <p class = "credits">Horoscope Icons from:
+        <a href="https://www.freevector.com/horoscope-zodiac-signs#" target="_blank">FreeVector.com</a></p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body{
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace; /*Font from W3D*/
+  font-size:25px;
+}
+
+
+#wholepage{
+  margin-top: 15%;
+  position: relative;
+}
+
+h1, h2, p{
+  color: white;
+}
+
+h2{
+  font-weight: 200;
+  font-size: 23px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.inputs{
+  width: 100%;
+  margin-left: 38%;
+}
+
+.monthbox{
+  float: left;
+  padding-right: 1%;
+}
+
+.daybox{
+  float: left;
+}
+
+.whatisit{
+  margin-top: 12%;
+}
+
+.credits{
+  font-size: 7px;
+  color: purple;
+  float: right;
+  margin-top: 20%;
+  position: static;
+  margin-right: 1%;
+  color: darkslateblue;
+}
+
+.credits > a{
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+.pics > img{
+  height: 150px;
+  width: 150px;
+}
+
+.description{
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+button { /*Button code from W3D school*/
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	border-radius: 7px;
+
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: rgba(255, 203, 91, 1);
+  font-size: 20px;
+
+  padding: 6px 22px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  }
+
+  button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+  @media only screen and (max-width: 600px){
+    .inputs {
+    margin-left: 26%;
+    }
+  }
+
+  @media (min-width:601px) and (max-width:940px) {
+    .inputs {
+      width: 100%;
+      margin-left: 34%;
+    }
+    .whatisit {
+      margin-top: 14%;
+    }
+    .inputs {
+        width: 100%;
+        margin-left: 36%;
+    }
+}
+
+
+  @media (min-width:941px) and (max-width:1030px){
+    .inputs {
+      width: 100%;
+      margin-left: 38%;
+    }
+  }
+
+@media (min-width:1031px) and (max-width:1680px){
+  .inputs {
+    margin-left: 41%;
+  }
+
+}
